@@ -1,6 +1,6 @@
 {
     "name": "@anidowia/rpn-calculator",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "description": "A calculator for evaluating expressions in Reverse Polish Notation (RPN)",
     "author": "Dina",
     "repository": {

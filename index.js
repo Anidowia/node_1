@@ -37,10 +37,6 @@ function rpnCalculate(exp) {
         }
       }
     });
-
-    if (stack.length !== 1) {
-      throw new Error("Invalid RPN expression: stack should have exactly one element at the end.");
-    }
   
     return stack.pop();
 }
