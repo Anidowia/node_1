@@ -1,7 +1,7 @@
 {
-    "name": "node_1",
+    "name": "@anidowia/rpn-calculator",
     "version": "1.0.0",
-    "description": "This is the first nidejs task",
+    "description": "A calculator for evaluating expressions in Reverse Polish Notation (RPN)",
     "author": "Dina",
     "repository": {
       "type": "git",
