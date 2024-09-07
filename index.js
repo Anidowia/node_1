@@ -1,4 +1,4 @@
-console.log("Привет! Это версия 1.0.0");
+console.log("Привет! Это версия 2.0.0");
 
 function rpnCalculate(exp) {
     const elements = exp.split(" ");
@@ -10,9 +10,6 @@ function rpnCalculate(exp) {
         stack.push(parseInt(el, 10)); 
       } else {
         // Иначе извлекаем 2 последних числа из стека
-        if (stack.length < 2) {
-          throw new Error("Недостаточно операндов");
-        }
         const b = stack.pop();
         const a = stack.pop();
   
